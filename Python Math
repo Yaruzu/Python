@@ -1,37 +1,57 @@
->>> Write your code here 
+>>> Escreva seu código aqui
 
 
+---------------------------------------------------------------------------------------------------------------------------------------
 
 
-Basic Operations supported:
+Operações básicas suportadas
 
-Addition >>> 3 + 5
+Adição >>> 3 + 5
                  -> 8
 
-Subtraction >>> 10 - 5 
+Subtraçãp >>> 10 - 5 
                  -> 5
                  
-Multiplication >>> 3 * 5 
+Multiplicação >>> 3 * 5 
                     -> 15
                    
-Division >>>  30 / 6 
+Divisão >>>  30 / 6 
                 -> 5 
                 
-Exponent >>> 2 ** 3
+Exponência >>> 2 ** 3
                 -> 8
 
-Negation >>> - 2 + -3
+Negação >>> - 2 + -3
                 -> -5
 
-() Use those to emphasize
+Outros:
 
+>>>3 == 2 #três é igual a dois
+false
 
-Integers and Floats:
+>>>3 > 2 #três é maior que dois
+true
+
+>>>5 < 3 #cinco é menor que três 
+false
+
+>>>6 >= 3 #seis é maior ou igual a três
+true
+
+>>>1 <= 5 #um é menor ou igual a cinco
+true
+
+>>>7 != 5 #sete é diferente de cinco
+true
+() Use os parênteses para dar importância a alguma operação
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Integers e Floats:
 
 int >>> 35 
 
-An int is an whole number
+Um int é um numero inteiro
 
 float >>> 0.65
 
-A float is a decimal number
+Um float é um numero decimal
