@@ -1,0 +1,37 @@
+>>> Write your code here 
+
+
+
+
+Basic Operations supported:
+
+Addition >>> 3 + 5
+                 -> 8
+
+Subtraction >>> 10 - 5 
+                 -> 5
+                 
+Multiplication >>> 3 * 5 
+                    -> 15
+                   
+Division >>>  30 / 6 
+                -> 5 
+                
+Exponent >>> 2 ** 3
+                -> 8
+
+Negation >>> - 2 + -3
+                -> -5
+
+() Use those to emphasize
+
+
+Integers and Floats:
+
+int >>> 35 
+
+An int is an whole number
+
+float >>> 0.65
+
+A float is a decimal number
