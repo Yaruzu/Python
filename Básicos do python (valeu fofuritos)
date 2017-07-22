@@ -70,7 +70,7 @@ Uma vez criada, nós podemos digitar seu nome e receber o valor armazenado, o qu
 organização em nosso código.
 
 
----------------------------------------------------------------------------------------------------------------------------------------
+
 Como eu devo nomear a minha variável?
 
 Contanto que você não esteja quebrando nenhuma destas regras, você pode dar a ela o nome que você bem entender!
@@ -78,8 +78,8 @@ Contanto que você não esteja quebrando nenhuma destas regras, você pode dar a
 2.Não pode começar com números ou caractéres especiais ----> 3var, $var
 
 
----------------------------------------------------------------------------------------------------------------------------------------
-Arredondando valores com o ceil e floor:
+
+Arredondando variáveis com o ceil e floor:
 
 Ceil = arredonda para o maior número possível
 
@@ -94,3 +94,30 @@ Floor =a rredonda para o menor número possível
 >>>import math
 >>>math.ceil(batatas)
 4
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Strings:
+
+Str são uma sequência de caracteres que podem armazenar letras, números, combinações-tudo!
+
+Para criar strings, use as aspas. Tanto uma quanto duas funcionam no python.
+
+>>> 'Hello world!'  #Aqui temos a string 'Hello World'
+
+Nós podemo combinar strings com variáveis, usando o simbolo de + 
+Por exemplo:
+
+>>>primeiro_nome = "Lucas"
+>>>ultimo_nome = "Martini"
+>>>nome_inteiro = primeiro_nome + ultimo_nome
+
+E se nós digitarmos nome_inteiro, o python nos dará o seguinte:
+
+>>>"LucasMartini"
+
+Note que não há um espaço em "LucasMartini", e para adicionar um, devemos fazer isto: 
+
+>>>nome_inteiro = primeiro_nome + ' ' + ultimo_nome
+>>>"Lucas Martini"
+
