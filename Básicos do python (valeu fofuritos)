@@ -3,7 +3,6 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-
 Operações básicas suportadas
 
 Adição >>> 3 + 5
@@ -43,7 +42,9 @@ true
 
 >>>7 != 5 #sete é diferente de cinco
 true
+
 () Use os parênteses para dar importância a alguma operação
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 Integers e Floats:
@@ -55,3 +56,41 @@ Um int é um numero inteiro
 float >>> 0.65
 
 Um float é um numero decimal
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Variáveis:
+
+São um jeito fácil de armazenar valores para serem usados mais tarde no programa. 
+Elas são criadas com o seu nome na esquerda, e seu conteúdo na direita. Por exemplo:
+
+Variavel = 22 
+
+Uma vez criada, nós podemos digitar seu nome e receber o valor armazenado, o quê significa que nós teremos menos repetições e mais
+organização em nosso código.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Como eu devo nomear a minha variável?
+
+Contanto que você não esteja quebrando nenhuma destas regras, você pode dar a ela o nome que você bem entender!
+1.Não pode conter espaços no nome ----> var var
+2.Não pode começar com números ou caractéres especiais ----> 3var, $var
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Arredondando valores com o ceil e floor:
+
+Ceil = arredonda para o maior número possível
+
+>>>batatas = 4.8
+>>>import math
+>>>math.ceil(batatas)
+5
+
+Floor =a rredonda para o menor número possível
+
+>>>batatas = 4.8
+>>>import math
+>>>math.ceil(batatas)
+4
